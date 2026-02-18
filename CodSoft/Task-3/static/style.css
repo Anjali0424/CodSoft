@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f4f6f8, #e0eafc);
+}
+
+.container {
+    width: 450px;
+    margin: 70px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.add-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #2980b9;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1f618d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+li.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.actions a {
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.complete { color: green; }
+.edit { color: orange; }
+.delete { color: red; }
+
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #2980b9;
+}
