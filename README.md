@@ -23,7 +23,7 @@ Each task demonstrates the use of Python programming concepts, GUI development, 
   - Absolute Difference and Clear option
 - Professional calculator-style UI
 
- Task 3: Password Generator
+ Task 3: Password Generator application
 - Developed using **Python Tkinter**
 - Generates strong and random passwords
 - User can specify password length
