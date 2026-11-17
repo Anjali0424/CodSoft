@@ -7,11 +7,11 @@
 <body>
 
 <div class="container">
-    <h2>✏️ Edit Task</h2>
+    <h2>Edit Given Task</h2>
 
     <form method="POST" class="add-form">
         <input type="text" name="task" value="{{ task.title }}" required>
-        <button type="submit">Update</button>
+        <button type="submit">Update the task</button>
     </form>
 
     <a href="{{ url_for('index') }}" class="back">⬅ Back</a>
