@@ -8,8 +8,8 @@ Each task demonstrates the use of Python programming concepts, GUI development, 
 - Developed using **Flask**, **HTML**, and **CSS**
 - Allows users to:
   - Add new tasks
-  - Update existing tasks
-  - Mark tasks as completed
+  - Update the existing tasks
+  - Mark tasks as completed (you can click on checkbox)
   - Delete tasks
 - Clean and user-friendly interface
 - No JavaScript used
